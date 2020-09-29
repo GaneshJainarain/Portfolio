@@ -8,15 +8,23 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          My name is <code> Ganesh </code> and im killin React rn.
+          Names' <code> Ganesh</code> and im killin React rn.
         </p>
         <a
           className="App-link"
-          href="https://giphy.com/gifs/Jir3toQTWW9Ne/html5"
+          href="https://media.giphy.com/media/11KzOet1ElBDz2/giphy.gif"
           target="_blank"
           rel="noopener noreferrer"
         >
           Click for a Surprise
+        </a>
+        <a
+          className="App-link"
+          href="https://github.com/RicheyJay23"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Click for a Surprise2
         </a>
       </header>
     </div>
