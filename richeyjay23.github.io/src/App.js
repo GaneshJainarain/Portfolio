@@ -11,23 +11,50 @@ import { BrowserRouter as Router, Switch, Routes, Route, Link} from "react-route
 function App() {
   return (
     <Router>
-      <Switch>
-        <Route path="/Home">
-            <Home />
-        </Route>
-        <Route path="/Projects">
-            <Projects />
-        </Route>
-        <Route path="/ProjectSubpage">
-            <ProjectSubpage />
-        </Route>
-        <Route path="/AboutMe">
-          <AboutMe />
-        </Route>
-        <Route path="ContactMe">
-          <ContactMe />
-        </Route>
-      </Switch>
+      <nav> 
+        <ul>
+          <li>
+          <Link to="/">Directory</Link>
+          </li>
+          <li>
+          <Link to="/Home">Home</Link>
+          </li>
+          <li>
+          <Link to="/AboutMe">AboutMe</Link>
+          </li>
+          <li>
+          <Link to="/ContactMe">Contact Me</Link>
+          </li>
+          <li>
+          <Link to="/Projects">Projects</Link>
+          </li>
+          <li>
+          <Link to="/ProjectSubpage">ProjectSubpage</Link>
+          </li>
+        </ul>
+
+      </nav>
+        <Switch>
+          <Route path="/" exact component={Home}>
+              <Home />
+          </Route>
+          <Route path="/" component={Home}>
+              <Home />
+          </Route>
+          <Route path="/Projects">
+              <Projects />
+          </Route>
+          <Route path="/ProjectSubpage">
+              <ProjectSubpage />
+          </Route>
+          <Route path="/AboutMe">
+            <AboutMe />
+          </Route>
+          <Route path="ContactMe">
+            <ContactMe />
+          </Route>
+        </Switch>
+
     </Router>
 
 
