@@ -35,10 +35,8 @@ function App() {
 
       </nav>
         <Switch>
-          <Route path="/" exact component={Home}>
-              <Home />
-          </Route>
-          <Route path="/" component={Home}>
+          
+          <Route path="/Home">
               <Home />
           </Route>
           <Route path="/Projects">
@@ -50,7 +48,7 @@ function App() {
           <Route path="/AboutMe">
             <AboutMe />
           </Route>
-          <Route path="ContactMe">
+          <Route path="/ContactMe">
             <ContactMe />
           </Route>
         </Switch>

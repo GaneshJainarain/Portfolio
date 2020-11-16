@@ -4,8 +4,10 @@ function Home() {
   return (
 
     <div className="Home">
-
+        <br/>
+        <br/>
         <h1> Home </h1>
+        
         <br/>
 
     </div>

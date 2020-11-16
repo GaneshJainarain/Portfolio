@@ -5,7 +5,8 @@ function AboutMe() {
   return (
 
     <div className="AboutMe">
-
+       <br/>
+       <br/>
         <h1> AboutMe </h1>
         <br/>
 
