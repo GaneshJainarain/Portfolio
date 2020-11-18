@@ -5,8 +5,9 @@ function Home() {
 
     <div className="Home">
         <br/>
-        <br/>
+        <br/> 
         <h1> Home </h1>
+        <p> Should display at least your name, an image (of yourself or anything you want), and some sort of animation</p>
         
         <br/>
 

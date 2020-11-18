@@ -5,9 +5,10 @@ function AboutMe() {
   return (
 
     <div className="AboutMe">
-       <br/>
-       <br/>
+        <br/>
+        <br/>
         <h1> AboutMe </h1>
+        <p>Should include a well written paragraph about yourself, and a link to download your resume or CV.</p>
         <br/>
 
     </div>

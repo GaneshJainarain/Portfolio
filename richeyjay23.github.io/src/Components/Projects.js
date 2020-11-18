@@ -8,6 +8,7 @@ function Projects() {
         <br/>
         <br/>
         <h1> Projects </h1>
+        <p>Should display a collection of clickable elements that navigate to a project subpage</p>
         <br/>
 
     </div>
