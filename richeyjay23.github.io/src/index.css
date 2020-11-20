@@ -1,6 +1,5 @@
-
+ 
 body {
-    background-image: url('/Users/richeyjay/Documents/GitHub/hw1/richeyjay23.github.io/src/Cpu.jpg');
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
     color: rgb(0, 0, 0);
@@ -8,13 +7,89 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+.header-color {
+    background: #0B486B;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F56217, #0B486B);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F56217, #0B486B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+ }
+ .home-grid{
+
+        background: #0B486B;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #F56217, #0B486B);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #F56217, #0B486B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        text-align: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+ }
+
+.avatar-img {
+    height: 250px;
+    padding-top: 5em;
+
+}
+.banner-text {
+
+    background-color: black;
+    opacity: .6;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.banner-text h1 {
+    font-size: 66px;
+    font-weight: bold;
+    color: white;
+
+}
+
+.banner-text hr {
+    border-top: 5px dotted white;
+    width: 50%;
+    margin: auto;
+}
+
+.banner-text p {
+    color: white;
+    font-size: 20px;
+    padding: 1em;
+
+}
+
+
+.social-links {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: auto;
+
+}
+
+.social-links i {
+    color: white;
+    font-size: 5em;
+    padding: 8px;
+
+}
+
+
+
+
+
+
 code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
 span{
     padding-inline-start: 50px;
-
 }
+
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -27,7 +102,14 @@ ul {
     width: 100%;
 }
 
+.pretty{
+    text-align: center
+}
 
+.displayed {
+    
+    margin-left: auto;
+    margin-right: auto }
 
 li {
     float: left;
@@ -48,32 +130,7 @@ li a {
 li a:hover {
     background-color: rgb(75, 115, 215);
 }
-
-.element {
-  animation: pulse 5s infinite;
-}
-label img {
-    transform: scale(0.5);
-    transition-duration: 0.2s;
-    }
-  label img:hover {
-    cursor: pointer;
-    transform: scale(1);
-  }
-  input[type='text'] {
-    opacity: 0;
-    font-size: 30px;
-    transition-duration: 0.2s;
-  }
-  input[type='text']:focus {
-    opacity: 1;
-  }
-
-@keyframes pulse {
-  0% {
-    background-color: #001F3F;
-  }
-  100% {
-    background-color: #FF4136;
-  }
+p {
+    font-weight: bold;
+    text-align: center;
 }

@@ -1,19 +1,22 @@
-import React from 'react'
-import { BrowserRouter as Router, Switch, Routes, Route, Link} from "react-router-dom"
+import React, {Component} from 'react'
 
-function Projects() {
-  return (
+class Projects extends Component {
+  render() {
+    return (
 
-    <div className="Projects">
-        <br/>
-        <br/>
-        <h1> Projects </h1>
-        <p>Should display a collection of clickable elements that navigate to a project subpage</p>
-        <br/>
+      <div className="Projects">
+          <br/>
+          <br/>
+          
+          <h1 className="pretty"> Projects </h1>
+          <br/>
+  
+      </div>
+    )
 
-    </div>
+  }
 
-  );
+
 }
 
 export default Projects;

@@ -1,19 +1,23 @@
-import React from 'react'
-import { BrowserRouter as Router, Switch, Routes, Route, Link} from "react-router-dom"
+import React, {Component} from 'react'
 
-function AboutMe() {
-  return (
+class AboutMe extends Component {
+  render() {
+    return (
 
-    <div className="AboutMe">
-        <br/>
-        <br/>
-        <h1> AboutMe </h1>
-        <p>Should include a well written paragraph about yourself, and a link to download your resume or CV.</p>
-        <br/>
+      <div className="AboutMe">
+          <br/>
+          <br/>
+          
+          <h1 className="pretty"> AboutMe </h1>
+          <p>Should include a well written paragraph about yourself, and a link to download your resume or CV.</p>
+          <br/>
+  
+      </div>
+    )
 
-    </div>
+  }
 
-  );
+
 }
 
 export default AboutMe;

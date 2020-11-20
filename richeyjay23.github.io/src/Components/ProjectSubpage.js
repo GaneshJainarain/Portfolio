@@ -1,19 +1,22 @@
-import React from 'react'
-import { BrowserRouter as Router, Switch, Routes, Route, Link} from "react-router-dom"
+import React, {Component} from 'react'
 
-function ProjectSubpage() {
-  return (
+class ProjectSubpage extends Component {
+  render() {
+    return (
 
-    <div className="ProjectSubpage">
-        <br/>
-        <br/>
-        <h1> ProjectSubpage </h1>
-        <p>Should have the name of the project, a featured image or gif, a brief description of the technologies you used, and a link to the github repo or live URL for the project if you have one.</p>
-        <br/>
+      <div className="ProjectSubpage">
+          <br/>
+          <br/>
+          
+          <h1 className="pretty"> ProjectSubpage </h1>
+          <br/>
+  
+      </div>
+    )
 
-    </div>
+  }
 
-  );
+
 }
 
 export default ProjectSubpage;

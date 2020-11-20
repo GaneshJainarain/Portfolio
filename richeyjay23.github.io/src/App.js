@@ -1,65 +1,38 @@
-import React from 'react'
-import Home from './Components/Home';
-import AboutMe from './Components/AboutMe';
-import ContactMe from './Components/ContactMe';
-import Projects from './Components/Projects';
-import ProjectSubpage from './Components/ProjectSubpage';
-import { BrowserRouter as Router, Switch, Routes, Route, Link} from "react-router-dom"
+import React, { Component } from 'react'
+import { Layout, Header, Navigation, Drawer, Content} from "react-mdl"
+import  Main from './Components/Main';
+import { Link } from "react-router-dom"
 
-
-
-  function App() {
+class App extends Component {
+  render() {
     return (
-      
-      <Router>
-      <span>
-
-          <nav> 
-            <ul>
-              <li class="nav-item">
-              <Link to="/">Directory</Link>
-              </li>
-              <li class="nav-item">
-              <Link to="/Home">Home</Link>
-              </li>
-              <li class="nav-item">
-              <Link to="/AboutMe">AboutMe</Link>
-              </li>
-              <li class="nav-item">
-              <Link to="/ContactMe">Contact Me</Link>
-              </li>
-              <li class="nav-item">
-              <Link to="/Projects">Projects</Link>
-              </li>
-              <li class="nav-item">
-              <Link to="/ProjectSubpage">ProjectSubpage</Link>
-              </li>
-            </ul>
-          </nav>
-      </span>
-          <Switch>
-            
-            <Route path="/Home">
-                <Home />
-            </Route>
-            <Route path="/Projects">
-                <Projects />
-            </Route>
-            <Route path="/ProjectSubpage">
-                <ProjectSubpage />
-            </Route>
-            <Route path="/AboutMe">
-              <AboutMe />
-            </Route>
-            <Route path="/ContactMe">
-              <ContactMe />
-            </Route>
-          </Switch>
-
-      </Router>
-      
-
+      <div className="demo-big-content">
+          <Layout>
+              <Header className='header-color' title="Portfolio" scroll>
+                  <Navigation>
+                      <Link to="/Home">Home</Link>
+                      <Link to="/AboutMe">AboutMe</Link>
+                      <Link to="/ContactMe">ContactMe</Link>
+                      <Link to="/Projects">Projects</Link>
+                      <Link to="/ProjectSubpage">ProjectSubpage</Link>
+                  </Navigation>
+              </Header>
+              <Drawer title="Menu">
+                  <Navigation>
+                      <Link to="/Home">Home</Link>
+                      <Link to="/AboutMe">AboutMe</Link>
+                      <Link to="/ContactMe">ContactMe</Link>
+                      <Link to="/Projects">Projects</Link>
+                      <Link to="/ProjectSubpage">ProjectSubpage</Link>
+                  </Navigation>
+              </Drawer>
+              <Content>
+                  <div className="page-content" />
+                  <Main/>
+              </Content>
+          </Layout>
+      </div>
     );
   }
-
+}
 export default App;
