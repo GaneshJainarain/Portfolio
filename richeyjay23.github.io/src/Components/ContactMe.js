@@ -9,6 +9,7 @@ class ContactMe extends Component {
           <br/>
           
           <h1 className="pretty"> ContactMe </h1>
+          <p></p>
           <br/>
   
       </div>

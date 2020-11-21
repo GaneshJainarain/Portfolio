@@ -38,7 +38,6 @@ class Home extends Component {
           </Grid>
           
           
-          <h1 className="pretty"> Home </h1>
           <br/>
   
       </div>
