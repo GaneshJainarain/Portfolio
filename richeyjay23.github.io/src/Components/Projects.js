@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton } from 'react-mdl';
+import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, Button, CardMenu } from 'react-mdl';
 
 
 class Projects extends Component {
@@ -23,7 +23,6 @@ class Projects extends Component {
               <Button colored>GitHub</Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
-              <IconButton name="share" />
             </CardMenu>
           </Card>
 
@@ -34,10 +33,9 @@ class Projects extends Component {
               Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
             </CardText>
             <CardActions border>
-              <Button colored>GitHub</Button>
+              <Button href='' colored>GitHub</Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
-              <IconButton name="share" />
             </CardMenu>
           </Card>
 
@@ -59,7 +57,7 @@ class Projects extends Component {
     return(
       <div>
         <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
-          <Tab>React</Tab>
+          <Tab>Python</Tab>
           <Tab>Angular</Tab>
           
         </Tabs>
