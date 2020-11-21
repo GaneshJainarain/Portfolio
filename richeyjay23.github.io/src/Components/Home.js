@@ -27,10 +27,16 @@ class Home extends Component {
                 <i class=" fa fa-linkedin-square" aria-hidden="true"/>
                 </a>
 
+                {/* Resume */}
+                <a href= "=/Desktop/Resume/Resume.pdf" download> 
+                  <i class=" fa fa-file" aria-hidden="true"/>
+                </a>
+
                 {/* Github */}
                 <a href= "https://github.com/RicheyJay23" rel="noreferrer" target="_blank"> 
                 <i class=" fa fa-github-square" aria-hidden="true"/>
                 </a>
+
 
               </div>  
               </div>

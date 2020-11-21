@@ -8,7 +8,7 @@ class App extends Component {
     return (
       <div className="demo-big-content">
           <Layout>
-              <Header className='header-color' title={<Link style={{textDecoration: 'none', color: 'white'}} to="/Home">Ganesh Jainarain</Link>} scroll>
+              <Header className='header-color' title={<Link style={{textDecoration: 'underline', color: 'white'}} to="/Home">Ganesh Jainarain</Link>} scroll>
                   <Navigation>
                       <Link to="/"></Link>
                       <Link to="/Home">Home</Link>
@@ -17,7 +17,7 @@ class App extends Component {
                       <Link to="/Projects">Projects</Link>
                       <Link to="/ProjectSubpage">ProjectSubpage</Link>
                   </Navigation>
-              </Header>
+              </Header >
               <Drawer title="Menu">
                   <Navigation>
                       <Link to="/Home">Home</Link>

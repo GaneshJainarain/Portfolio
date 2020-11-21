@@ -13,6 +13,12 @@ body {
     background: linear-gradient(to right, #F56217, #0B486B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     
  }
+
+ .header-color :hover{
+    background-color: #0B486B;
+
+ }
+
  .home-grid{
 
         background: #0B486B;  /* fallback for old browsers */
@@ -101,15 +107,15 @@ body {
     width: 100%;
     height: 100%;
     justify-content: center;
-    padding-top: 2em;
+    padding-top: 1em;
   }
   
   .contact-grid {
     
     text-align: center;
     justify-content: center;
-    width: 80%;
-    height: 550px;
+    width: 90%;
+    height: 560px;
     background: white;
     color: black;
     margin-bottom: 20px;
@@ -125,14 +131,14 @@ body {
   }
   
   .contact-body hr {
-    border-top: 5px dotted black;
-    width: 50%;
+    border-top: 5px dotted #0B486B;
+    width: 70%;
     margin: auto;
   }
   
   .contact-body i {
     font-size: 50px;
-    padding-right: 2rem;
+    padding-right: 1rem;
   }
   
   
