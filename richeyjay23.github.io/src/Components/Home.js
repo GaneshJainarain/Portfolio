@@ -19,7 +19,7 @@ class Home extends Component {
                   <hr/>
 
 
-                <p>HTML | CSS | JavaScript | React | Python | Autommation Engineering | Finnancial Engineering | Java Game Development </p>
+                <p>HTML | CSS | JavaScript | React | GIT Version Control | Python | Autommation Engineering | Finnancial Engineering | Java Game Development </p>
                 
               <div className="social-links">
 
