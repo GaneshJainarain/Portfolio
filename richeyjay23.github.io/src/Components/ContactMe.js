@@ -8,13 +8,56 @@ class Contact extends Component {
       <div className="contact-body">
         <Grid className="contact-grid">
           <Cell col={6}>
-            <h2>Ganesh Jainarain</h2>
-            <img
-              src="https://cdn2.iconfinder.com/data/icons/avatar-2/512/Fred_man-512.png"
-              alt="avatar"
-              style={{height: '250px'}}
-               />
-             <p style={{ width: '75%', margin: 'auto', paddingTop: '1em'}}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries</p>
+
+            <h2>Send me a Message</h2>
+            <div class="container">
+
+              <form >
+                  <div class="row">
+                    <div class="col-25">
+                      <label for="fname">First Name</label>
+                  </div>
+                  <div class="col-75">
+                        <input type="text" id="fname" name="firstname" placeholder="Your name.."/>
+                  </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-25">
+                        <label for="lname">Last Name</label>
+                      </div>
+                      <div class="col-75">
+                        <input type="text" id="lname" name="lastname" placeholder="Your last name.."/>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-25">
+                        <label for="country">Email</label>
+                      </div>
+                      <div class="col-75">
+                      <input type="text" id="lname" name="lastname" placeholder="Your Email Address.."/>
+                      </div>
+                    </div>
+                    
+                    <div class="row">
+                            <div class="col-25">
+                              <label for="subject">Subject</label>
+                            </div>
+                            <div class="col-75">
+                              <textarea id="subject" name="subject" placeholder="Write something.." ></textarea>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <br/>
+                            <input type="submit" value="Submit"/>
+                          </div>
+                    </form>
+                  </div>
+                              
+                              
+
+
+
+
 
           </Cell>
           <Cell col={6}>
@@ -22,14 +65,17 @@ class Contact extends Component {
             <hr/>
               
                 <ListItem>
-                  <ListItemContent style={{fontSize: '25px', fontFamily: 'Anton'}}>
+                  <ListItemContent style={{fontSize: '25px', fontFamily: 'Anton', color: "white",}}>
+                  <br/>
                     <i className="fa fa-phone-square" aria-hidden="true"/>
-                    347-543-1736
+                     347-543-1736
                   </ListItemContent>
                 </ListItem>
 
                 <ListItem>
-                  <ListItemContent style={{fontSize: '25px', fontFamily: 'Anton'}}>
+                  <ListItemContent style={{fontSize: '25px', fontFamily: 'Anton', color: "white"}}>
+                    <br/>
+                    <br/>
                     <i className="fa fa-envelope" aria-hidden="true"/>
                     RicheyJay2@gmail.com
                   </ListItemContent>

@@ -17,10 +17,9 @@ class Projects extends Component {
           {/* Project 1 */}
           <Card shadow={25} style={{minWidth: '450', margin: 'auto'}}>
             <CardTitle style={{color: 'black', height: '176px', background: 'url(https://bioblog3d.files.wordpress.com/2013/12/seleniumpy.jpg) center / cover'}} >Python and Selenium</CardTitle>
-            <CardText>
-                      Yahoo Finance has an Events section for every day on the calendar. 
-                      The events list out how many EPS Reports are going to be announced that day. 
-                      Scrape the Ticker Symbols along with the date in which the EPS report is set to announce.
+            <CardText >
+                      I created this project in order for the retrival of data to be more efficent and organzied. 
+                      This project acts as a autommated platform for investors to pull EPS data on companies based on specific date inputs.
             </CardText>
             <CardActions border>
               <Button href= "https://github.com/RicheyJay23/EPS" rel="noreferrer" target="_blank" colored>GitHub</Button>
@@ -42,7 +41,7 @@ class Projects extends Component {
           <Card shadow={25} style={{minWidth: '450', margin: 'auto'}}>
             <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >Favorite Link Storer</CardTitle>
             <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+                      A simple React app that will list your favorite links on the Web.
             </CardText>
             <CardActions border>
               <Button href= "https://github.com/RicheyJay23/Fave-Links-storer" rel="noreferrer" target="_blank" colored>GitHub</Button>
@@ -55,7 +54,7 @@ class Projects extends Component {
           <Card shadow={25} style={{minWidth: '450', margin: 'auto'}}>
             <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >Design Pad</CardTitle>
             <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+                       A simple React app that will be a design pad. Users will be able to drag-and-drop inputs to change the design pads when it is in EDIT mode. 
             </CardText>
             <CardActions border>
               <Button href= "https://github.com/RicheyJay23/design-pad" rel="noreferrer" target="_blank" colored>GitHub</Button>
