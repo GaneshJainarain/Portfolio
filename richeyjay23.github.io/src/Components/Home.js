@@ -29,9 +29,10 @@ class Home extends Component {
                 </a>
 
                 {/* Resume */}
-                <a href= "=/Desktop/Resume/Resume.pdf" download> 
-                  <i class=" fa fa-file" aria-hidden="true"/>
-                </a>
+                
+                  <a href= "https://docs.google.com/document/d/e/2PACX-1vSgDr6uJtiidJGJwfqA_ZwxPFnc0ueGBLfCk6ka2pNSTeLFowgy1jh1VlFsFfmpMGlxKScTYaW3RrGQ/pub" download> 
+                    <i class=" fa fa-file" aria-hidden="true"/>
+                  </a>
 
                 {/* Github */}
                 <a href= "https://github.com/RicheyJay23" rel="noreferrer" target="_blank"> 
