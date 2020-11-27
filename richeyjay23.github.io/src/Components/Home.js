@@ -30,7 +30,7 @@ class Home extends Component {
 
                 {/* Resume */}
                 
-                  <a href= "https://docs.google.com/document/d/e/2PACX-1vSgDr6uJtiidJGJwfqA_ZwxPFnc0ueGBLfCk6ka2pNSTeLFowgy1jh1VlFsFfmpMGlxKScTYaW3RrGQ/pub" download> 
+                  <a href= "https://docs.google.com/document/d/e/2PACX-1vSgDr6uJtiidJGJwfqA_ZwxPFnc0ueGBLfCk6ka2pNSTeLFowgy1jh1VlFsFfmpMGlxKScTYaW3RrGQ/pub" download="GFG" rel="noreferrer" target="_blank"> 
                     <i class=" fa fa-file" aria-hidden="true"/>
                   </a>
 

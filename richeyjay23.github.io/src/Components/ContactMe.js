@@ -12,7 +12,7 @@ class Contact extends Component {
             <h2>Send me a Message</h2>
             <div class="container">
 
-              <form >
+              <form  action="connect.php" method = "post">
                   <div class="row">
                     <div class="col-25">
                       <label for="fname">First Name</label>
@@ -31,10 +31,10 @@ class Contact extends Component {
                     </div>
                     <div class="row">
                       <div class="col-25">
-                        <label for="country">Email</label>
+                        <label for="email">Email</label>
                       </div>
                       <div class="col-75">
-                      <input type="text" id="lname" name="lastname" placeholder="Your Email Address.."/>
+                      <input type="text" id="email" name="email" placeholder="Your Email Address.."/>
                       </div>
                     </div>
                     
@@ -48,7 +48,7 @@ class Contact extends Component {
                           </div>
                           <div class="row">
                             <br/>
-                            <input type="submit" value="Submit"/>
+                            <input type="submit" name="submit" />
                           </div>
                     </form>
                   </div>

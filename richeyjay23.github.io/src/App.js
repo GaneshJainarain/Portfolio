@@ -10,7 +10,7 @@ class App extends Component {
           <Layout>
               <Header className='header-color' title={<Link style={{textDecoration: 'underline', color: 'white'}} to="/Home">Ganesh Jainarain</Link>} scroll>
                   <Navigation>
-                      <Link to="/"></Link>
+                      <Link to="/"> Enter</Link>
                       <Link to="/Home">Home</Link>
                       <Link to="/AboutMe">AboutMe</Link>
                       <Link to="/ContactMe">ContactMe</Link>
@@ -20,6 +20,7 @@ class App extends Component {
               </Header >
               <Drawer title="Menu">
                   <Navigation>
+                      <Link to="/">EnterPage</Link>
                       <Link to="/Home">Home</Link>
                       <Link to="/AboutMe">AboutMe</Link>
                       <Link to="/ContactMe">ContactMe</Link>

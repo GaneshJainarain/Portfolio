@@ -6,6 +6,7 @@ import AboutMe from './AboutMe';
 import ContactMe from './ContactMe';
 import Projects from './Projects';
 import Resume from './Resume';
+import EnterPage from './EnterPage';
 
 
 
@@ -15,8 +16,7 @@ const Main = () => (
     
         <Switch>
 
-
-            <Route exact path="/" component={Home}/>
+            <Route exact path="/" component={EnterPage}/>
             <Route path="/Home" component={Home}/>
             <Route path="/AboutMe" component={AboutMe}/>
             <Route path="/ContactMe" component={ContactMe}/>
