@@ -1,9 +1,8 @@
 {
-   
-
   "name": "richeyjay23.github.io",
-   "engines" : 
-   { "node" : "12.18.3" } ,
+  "engines": {
+    "node": "12.18.3"
+  },
   "version": "0.1.0",
   "private": true,
   "dependencies": {
