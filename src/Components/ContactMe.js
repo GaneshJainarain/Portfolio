@@ -91,6 +91,8 @@ class Contact extends Component {
                   <br/>
                   <br/>
                   <br/>
+                  <br/>
+                  
                   <hr/>
                 </div>
                 
