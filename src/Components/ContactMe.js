@@ -76,7 +76,7 @@ class Contact extends Component {
                   </div>
                 
 
-                
+                <div>
                   <ListItemContent style={{fontSize: '25px', fontFamily: 'Anton', color: "white"}}>
                     
                     <br/>
@@ -92,6 +92,7 @@ class Contact extends Component {
                   <br/>
                   <br/>
                   <hr/>
+                </div>
                 
 
 
