@@ -65,22 +65,34 @@ class Contact extends Component {
           <h2>Contact Me</h2>
             <hr/>
               
-                <ListItem>
+                <div>
                   <ListItemContent style={{fontSize: '25px', fontFamily: 'Anton', color: "white",}}>
                   <br/>
+                  <br/>
+
                     <i className="fa fa-phone-square" aria-hidden="true"/>
                      347-543-1736
                   </ListItemContent>
-                </ListItem>
+                  </div>
+                
 
-                <ListItem>
+                
                   <ListItemContent style={{fontSize: '25px', fontFamily: 'Anton', color: "white"}}>
+                    
+                    <br/>
+                    <br/>
+                    <br/>
+                    <hr/>
                     <br/>
                     <br/>
                     <i className="fa fa-envelope" aria-hidden="true"/>
                     RicheyJay2@gmail.com
                   </ListItemContent>
-                </ListItem>
+                  <br/>
+                  <br/>
+                  <br/>
+                  <hr/>
+                
 
 
               
