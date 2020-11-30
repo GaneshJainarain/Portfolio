@@ -6,6 +6,7 @@ class Home extends Component {
     return (
 
       <div style={{width: '100%', margin: 'auto'}}>
+        
           <Grid className='home-grid'>
             <Cell col={12}>
                 <img 

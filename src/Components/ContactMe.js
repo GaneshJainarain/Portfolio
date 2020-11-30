@@ -3,6 +3,7 @@ import { Grid, Cell, ListItem, ListItemContent } from 'react-mdl';
 
 
 class Contact extends Component {
+  
   render() {
     return(
       <div className="contact-body">
@@ -12,7 +13,7 @@ class Contact extends Component {
             <h2>Send me a Message</h2>
             <div class="container">
 
-              <form  action="connect.php" method = "post">
+            <form action="https://formspree.io/f/xknpvqbp" method="POST" rel="noreferrer" target="_blank">
                   <div class="row">
                     <div class="col-25">
                       <label for="fname">First Name</label>

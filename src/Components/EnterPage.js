@@ -9,7 +9,7 @@ class EnterPage extends Component {
         
 
             <h2 className="pretty">WELCOME</h2>
-
+          
         
         </div>
         )
