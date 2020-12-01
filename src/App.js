@@ -18,7 +18,7 @@ class App extends Component {
                       <Link to="/Resume">Resume</Link>
                   </Navigation>
               </Header >
-              <Drawer title="Menu">
+              <Drawer classname="menu_nav" title="Menu">
                   <Navigation>
                       <Link to="/">EnterPage</Link>
                       <Link to="/Home">Home</Link>
