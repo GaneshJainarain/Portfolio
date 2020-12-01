@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Grid, Cell, ListItem, ListItemContent } from 'react-mdl';
+import { Grid, Cell, ListItemContent } from 'react-mdl';
 
 
 class Contact extends Component {
